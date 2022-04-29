@@ -43,7 +43,7 @@ const connection = server.listen(port, () => {
 //SOCKET INITIALIZATION
 const socket = io(connection, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: "*",
         credentials: true,
     }
 })

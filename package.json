@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "\"A broad and simple management system for any secondary school, which contains all aid to student and staff data",
   "scripts": {
-    "serve": "node server.js",
-    "start": "nodemon server.js"
+    "serve": "nodemon server.js",
+    "start": "node server.js"
   },
   "main": "server.js",
   "author": "xlaez_kamou",
@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "^14.15.1"
   }
 }
