@@ -1,7 +1,7 @@
 {
-  "name": "school_management_system",
-  "version": "1.0.0",
-  "description": "\"A broad and simple management system for any secondary school, which contains all aid to student and staff data",
+  "name": "future labs demo messenger",
+  "version": "0.0.1",
+  "description": "\"messenger app",
   "scripts": {
     "serve": "nodemon server.js",
     "start": "node server.js"
